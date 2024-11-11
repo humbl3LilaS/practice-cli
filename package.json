@@ -1,0 +1,21 @@
+{
+  "name": "practice-cli",
+  "bin": {
+    "practice": "./dist/index.js"
+  },
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsc -w",
+    "link-cli": "pnpm unlink --global practice-cli && pnpm link --global"
+  },
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
+}
